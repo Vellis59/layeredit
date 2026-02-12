@@ -1,8 +1,9 @@
-import Vue from 'vue';
+import { createApp } from 'vue';
 import 'indexeddbshim/dist/indexeddbshim';
 import './extensions';
 import './services/optional';
-import './icons';
+import icons from './icons';
+import vueGlobals from './components/common/vueGlobals';
 import App from './components/App';
 import store from './store';
 // import localDbSvc from './services/localDbSvc'; // Used in offline plugin
@@ -32,11 +33,11 @@ if (!localStorage.installPrompted) {
   });
 }
 
-Vue.config.productionTip = false;
+// Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  store,
-  render: h => h(App),
-});
+const app = createApp(App);
+app.use(store);
+app.use(icons);
+app.use(vueGlobals);
+app.mount('#app');

@@ -1,0 +1,57 @@
+
+> stackedit@5.15.4 build
+> vite build
+
+X [ERROR] "@vitejs/plugin-vue" resolved to an ESM file. ESM file cannot be loaded by `require`. See https://vite.dev/guide/troubleshooting.html#this-package-is-esm-only for more details. [plugin externalize-deps]
+
+    node_modules/esbuild/lib/main.js:1225:27:
+      1225 Ôöé         let result = await callback({
+           ÔòÁ                            ^
+
+    at file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:66928:23
+    at requestCallbacks.on-resolve (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:1225:28)
+    at handleRequest (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:647:17)
+    at handleIncomingPacket (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:672:7)
+    at Socket.readFromStdout (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:508:20)
+    at addChunk (node:internal/streams/readable:564:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:515:3)
+    at Readable.push (node:internal/streams/readable:395:5)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+
+  This error came from the "onResolve" callback registered here:
+
+    node_modules/esbuild/lib/main.js:1150:20:
+      1150 Ôöé       let promise = setup({
+           ÔòÁ                     ^
+
+    at setup (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:66890:18)
+    at handlePlugins (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:1150:21)
+    at buildOrContextImpl (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:873:5)
+    at Object.buildOrContext (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:699:5)
+    at C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:2023:15
+    at new Promise (<anonymous>)
+    at Object.build (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:2022:25)
+    at build (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:1873:51)
+    at bundleConfigFile (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:66845:24)
+
+  The plugin "externalize-deps" was triggered by this import
+
+    vite.config.js:2:16:
+      2 Ôöé import vue from '@vitejs/plugin-vue';
+        ÔòÁ                 ~~~~~~~~~~~~~~~~~~~~
+
+failed to load config from C:\Users\Velli\Desktop\CODE\antigravity\layeredit\vite.config.js
+error during build:
+Error: Build failed with 1 error:
+node_modules/esbuild/lib/main.js:1225:27: ERROR: [plugin: externalize-deps] "@vitejs/plugin-vue" resolved to an ESM file. ESM file cannot be loaded by `require`. See https://vite.dev/guide/troubleshooting.html#this-package-is-esm-only for more details.
+    at failureErrorWithLog (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:1472:15)
+    at C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:945:25
+    at runOnEndCallbacks (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:1315:45)
+    at buildResponseToResult (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:943:7)
+    at C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:970:16
+    at responseCallbacks.<computed> (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:622:9)
+    at handleIncomingPacket (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:677:12)
+    at Socket.readFromStdout (C:\Users\Velli\Desktop\CODE\antigravity\layeredit\node_modules\esbuild\lib\main.js:600:7)
+    at Socket.emit (node:events:508:20)
+    at addChunk (node:internal/streams/readable:564:12)

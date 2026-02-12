@@ -1,0 +1,2231 @@
+
+> stackedit@5.15.4 start
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m434[22m[2m[0m ms[22m
+
+  [32mÔ×£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m8080[22m/[39m
+[2m  [32mÔ×£[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  Ô×£[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import './variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\app.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import './variables';
+  Ôöé         ^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\markdownHighlighting.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Modal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Layout.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Notification.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\styles\app.scss 1:9          root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16           @import
+    src\styles\markdownHighlighting.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Modal.vue 2:9     root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Layout.vue 2:9    root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16      @import
+    src\components\Notification.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+20 Ôöé   color: darken($error-color, 10%);
+   Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 20:10  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+20 Ôöé   color: darken($error-color, 10%);
+   Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 20:10  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:36  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 70.7142857143%)
+color.adjust($color, $lightness: 33%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:36  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:21  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -7.5%)
+color.adjust($color, $alpha: -0.075)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:21  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+37 Ôöé     background-color: mix(#000, $editor-background-light, 6.7%);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Layout.vue 37:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+40 Ôöé       background-color: mix(#fff, $editor-background-dark, 6.7%);
+   Ôöé                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Layout.vue 40:25  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+62 Ôöé     background-color: mix(#000, $preview-background-light, 6.7%);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Layout.vue 62:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+167 Ôöé     background-color: darken(#349be8, 8%);
+    Ôöé                       ^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 167:23  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -14.3661971831%)
+color.adjust($color, $lightness: -8%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+167 Ôöé     background-color: darken(#349be8, 8%);
+    Ôöé                       ^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 167:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+134 Ôöé     color: darken($link-color, 10%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\Modal.vue 134:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -21.25%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+134 Ôöé     color: darken($link-color, 10%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\Modal.vue 134:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+138 Ôöé     color: darken($error-color, 10%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\Modal.vue 138:12  root stylesheet
+
+WARNING: 5 repetitive deprecation warnings omitted.
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+311 Ôöé   background-color: mix($editor-background-light, $selection-highlighting-color, 70%);
+    Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 311:21  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+315 Ôöé     background-color: mix($editor-background-dark, $selection-highlighting-color, 70%);
+    Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 315:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+321 Ôöé   background-color: mix($editor-background-light, $selection-highlighting-color, 50%);
+    Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 321:21  root stylesheet
+
+WARNING: 3 repetitive deprecation warnings omitted.
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import '../../node_modules/normalize-scss/sass/normalize';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\base.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import './variables';
+  Ôöé         ^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\base.scss 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\FilePropertiesModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\SettingsModal.vue 2:9  root stylesheet
+
+[Vue warn] (deprecation COMPILER_V_IF_V_FOR_PRECEDENCE) v-if / v-for precedence when used on the same element has changed in Vue 3: v-if now takes higher precedence and will no longer have access to v-for scope variables. It is best to avoid the ambiguity with <template> tags or use a computed property that filters v-for data source.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-if-v-for.html
+[Vue warn] (deprecation COMPILER_V_IF_V_FOR_PRECEDENCE) v-if / v-for precedence when used on the same element has changed in Vue 3: v-if now takes higher precedence and will no longer have access to v-for scope variables. It is best to avoid the ambiguity with <template> tags or use a computed property that filters v-for data source.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-if-v-for.html
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\common\ModalInner.vue 2:9  root stylesheet
+
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+6  |          <input slot="field" class="textfield" type="text" v-model.trim="url" @keydown.enter="resolve">
+7  |        </form-entry>
+8  |        <menu-entry @click.native="openGooglePhotos(token)" v-for="token in googlePhotosTokens" :key="token.sub">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+9  |          <icon-provider slot="icon" provider-id="googlePhotos"></icon-provider>
+10 |          <div>Open from Google Photos</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/ImageModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+11 |          <span>{{token.name}}</span>
+12 |        </menu-entry>
+13 |        <menu-entry @click.native="addGooglePhotosAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+14 |          <icon-provider slot="icon" provider-id="googlePhotos"></icon-provider>
+15 |          <span>Add Google Photos account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/ImageModal.vue
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\SyncManagementModal.vue 2:9  root stylesheet
+
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+38 |          </div>
+39 |        </div>
+40 |        <menu-entry @click.native="addBloggerAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+41 |          <icon-provider slot="icon" provider-id="blogger"></icon-provider>
+42 |          <span>Add Blogger account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+42 |          <span>Add Blogger account</span>
+43 |        </menu-entry>
+44 |        <menu-entry @click.native="addDropboxAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+45 |          <icon-provider slot="icon" provider-id="dropbox"></icon-provider>
+46 |          <span>Add Dropbox account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+46 |          <span>Add Dropbox account</span>
+47 |        </menu-entry>
+48 |        <menu-entry @click.native="addGithubAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+49 |          <icon-provider slot="icon" provider-id="github"></icon-provider>
+50 |          <span>Add GitHub account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+50 |          <span>Add GitHub account</span>
+51 |        </menu-entry>
+52 |        <menu-entry @click.native="addGitlabAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+53 |          <icon-provider slot="icon" provider-id="gitlab"></icon-provider>
+54 |          <span>Add GitLab account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+54 |          <span>Add GitLab account</span>
+55 |        </menu-entry>
+56 |        <menu-entry @click.native="addGoogleDriveAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+57 |          <icon-provider slot="icon" provider-id="googleDrive"></icon-provider>
+58 |          <span>Add Google Drive account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+58 |          <span>Add Google Drive account</span>
+59 |        </menu-entry>
+60 |        <menu-entry @click.native="addGooglePhotosAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+61 |          <icon-provider slot="icon" provider-id="googlePhotos"></icon-provider>
+62 |          <span>Add Google Photos account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+62 |          <span>Add Google Photos account</span>
+63 |        </menu-entry>
+64 |        <menu-entry @click.native="addWordpressAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+65 |          <icon-provider slot="icon" provider-id="wordpress"></icon-provider>
+66 |          <span>Add WordPress account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+66 |          <span>Add WordPress account</span>
+67 |        </menu-entry>
+68 |        <menu-entry @click.native="addZendeskAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+69 |          <icon-provider slot="icon" provider-id="zendesk"></icon-provider>
+70 |          <span>Add Zendesk account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/modals/AccountManagementModal.vue
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\AccountManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\PublishManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\BadgeManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\WorkspaceManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\SponsorModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\NavigationBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\ButtonBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\SideBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Editor.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Tour.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\gutters\StickyComment.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Preview.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\FindReplace.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\gutters\CurrentDiscussion.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import 'normalize/variables';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\_normalize.scss 1:9  @import
+    src\styles\base.scss 1:9                              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import 'normalize/vertical-rhythm';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\_normalize.scss 2:9  @import
+    src\styles\base.scss 1:9                              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+3 Ôöé @import 'normalize/normalize-mixin';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\_normalize.scss 3:9  @import
+    src\styles\base.scss 1:9                              root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(type-of($include) == "list"): $include; else: ($include))
+
+More info: https://sass-lang.com/d/if-function
+
+   ÔòÀ
+13 Ôöé     $_normalize-include: if(type-of($include) == 'list', $include, ($include)) !global;
+   Ôöé                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 13:26  @import
+    node_modules\normalize-scss\sass\_normalize.scss 3:9                    @import
+    src\styles\base.scss 1:9                                                root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(type-of($exclude) == "list"): $exclude; else: ($exclude))
+
+More info: https://sass-lang.com/d/if-function
+
+   ÔòÀ
+14 Ôöé     $_normalize-exclude: if(type-of($exclude) == 'list', $exclude, ($exclude)) !global;
+   Ôöé                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 14:26  @import
+    node_modules\normalize-scss\sass\_normalize.scss 3:9                    @import
+    src\styles\base.scss 1:9                                                root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($base-font-family): $base-font-family; else: sans-serif)
+
+More info: https://sass-lang.com/d/if-function
+
+    ÔòÀ
+419 Ôöé       font-family: if($base-font-family, $base-font-family, sans-serif); /* 1 */
+    Ôöé                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 419:20  @import
+    node_modules\normalize-scss\sass\_normalize.scss 3:9                     @import
+    src\styles\base.scss 1:9                                                 root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                    @import
+    src\components\modals\FilePropertiesModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16              @import
+    src\components\modals\SettingsModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                  @import
+    src\components\modals\common\ModalInner.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                    @import
+    src\components\modals\SyncManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                       @import
+    src\components\modals\AccountManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                       @import
+    src\components\modals\PublishManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                     @import
+    src\components\modals\BadgeManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                         @import
+    src\components\modals\WorkspaceManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16             @import
+    src\components\modals\SponsorModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16       @import
+    src\components\NavigationBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16   @import
+    src\components\ButtonBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\SideBar.vue 2:9   root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Editor.vue 2:9    root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Tour.vue 2:9      root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16               @import
+    src\components\gutters\StickyComment.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Preview.vue 2:9   root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16     @import
+    src\components\FindReplace.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                   @import
+    src\components\gutters\CurrentDiscussion.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\styles\base.scss 2:9         root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+14 Ôöé $tour-step-background: transparentize(mix(#f3f3f3, $selection-highlighting-color, 75%), 0.025);
+   Ôöé                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 14:39  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+14 Ôöé $tour-step-background: transparentize(mix(#f3f3f3, $selection-highlighting-color, 75%), 0.025);
+   Ôöé                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 14:24  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -2.5%)
+color.adjust($color, $alpha: -0.025)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+14 Ôöé $tour-step-background: transparentize(mix(#f3f3f3, $selection-highlighting-color, 75%), 0.025);
+   Ôöé                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 14:24  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+30 Ôöé     background-color: darken($error-color, 10);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\SponsorModal.vue 30:23  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+30 Ôöé     background-color: darken($error-color, 10);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\SponsorModal.vue 30:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.global-variable-exists instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+4 Ôöé   @if not global_variable_exists(_normalize-include) {
+  Ôöé           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 4:11   -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 31:10  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+13 Ôöé     $_normalize-include: if(type-of($include) == 'list', $include, ($include)) !global;
+   Ôöé                             ^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 13:29  -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 31:10  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(-$tour-step-width, 2) or calc(-1 * $tour-step-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ÔòÀ
+50 Ôöé     left: -$tour-step-width/2;
+   Ôöé           ^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 50:11  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+14 Ôöé     $_normalize-exclude: if(type-of($exclude) == 'list', $exclude, ($exclude)) !global;
+   Ôöé                             ^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 14:29  -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 31:10  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+54 Ôöé     background-color: mix($editor-background-light, $selection-highlighting-color, 10%);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\gutters\CurrentDiscussion.vue 54:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+58 Ôöé       background-color: mix($editor-background-dark, $selection-highlighting-color, 10%);
+   Ôöé                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\gutters\CurrentDiscussion.vue 58:25  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use list.index instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+19 Ôöé   @if index($_normalize-include, $section) {
+   Ôöé       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 19:7  -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 46:7  normalize()
+    src\styles\base.scss 4:1                                               root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+89 Ôöé   background-color: darken($error-color, 10);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\WorkspaceManagementModal.vue 89:21  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+89 Ôöé   background-color: darken($error-color, 10);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\WorkspaceManagementModal.vue 89:21  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($value, $relative-to) or calc($value / $relative-to)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ÔòÀ
+16 Ôöé     @return ($value / $relative-to) * 1em;
+   Ôöé              ^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_vertical-rhythm.scss 16:14  normalize-rhythm()
+    node_modules\normalize-scss\sass\normalize\_vertical-rhythm.scss 27:14  normalize-font-size()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 108:7  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+197 Ôöé   color: lighten($link-color, 15%);
+    Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 197:10  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 28.3333333333%)
+color.adjust($color, $lightness: 15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+197 Ôöé   color: lighten($link-color, 15%);
+    Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 197:10  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+202 Ôöé     color: lighten($link-color, 25%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 202:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 47.2222222222%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+202 Ôöé     color: lighten($link-color, 25%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 202:12  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($d, 10) or calc($d / 10)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ÔòÀ
+220 Ôöé $b: $d/10;
+    Ôöé     ^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 220:5  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+230 Ôöé     color: transparentize($error-color, 0.5);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 230:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -50%)
+color.adjust($color, $alpha: -0.5)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+230 Ôöé     color: transparentize($error-color, 0.5);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 230:12  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+239 Ôöé   border: $b solid transparentize($navbar-color, 0.5);
+    Ôöé                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 239:20  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -50%)
+color.adjust($color, $alpha: -0.5)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+239 Ôöé   border: $b solid transparentize($navbar-color, 0.5);
+    Ôöé                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 239:20  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($t, 4) or calc($t / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ÔòÀ
+265 Ôöé     animation: spin $t/4 linear infinite;
+    Ôöé                     ^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 265:21  root stylesheet
+
+WARNING: 4 repetitive deprecation warnings omitted.
+
+[vite:css] Replace text-decoration-skip: ink to text-decoration-skip-ink: auto, because spec had been changed
+478|    color: #0c93e4;
+479|    text-decoration: underline;
+480|    text-decoration-skip: ink;
+   |    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+481|  }
+482|  a:hover, a:focus {
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\CodeEditor.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\menus\common\MenuEntry.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+35 |        </div>
+36 |      </div>
+37 |      <menu-entry v-if="!loginToken" @click.native="signin">
+   |                                     ^^^^^^^^^^^^^^^^^^^^^^
+38 |        <icon-login slot="icon"></icon-login>
+39 |        <div>Sign in with Google</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+40 |        <span>Sync your main workspace and unlock functionalities.</span>
+41 |      </menu-entry>
+42 |      <menu-entry @click.native="setPanel('workspaces')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+43 |        <icon-database slot="icon"></icon-database>
+44 |        <div><div class="menu-entry__label menu-entry__label--count" v-if="workspaceCount">{{workspaceCount}}</div> Workspaces</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+46 |      </menu-entry>
+47 |      <hr>
+48 |      <menu-entry @click.native="setPanel('sync')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+49 |        <icon-sync slot="icon"></icon-sync>
+50 |        <div><div class="menu-entry__label menu-entry__label--count" v-if="syncLocationCount">{{syncLocationCount}}</div> Synchronize</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+51 |        <span>Sync your files in the Cloud.</span>
+52 |      </menu-entry>
+53 |      <menu-entry @click.native="setPanel('publish')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+54 |        <icon-upload slot="icon"></icon-upload>
+55 |        <div><div class="menu-entry__label menu-entry__label--count" v-if="publishLocationCount">{{publishLocationCount}}</div>Publish</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+56 |        <span>Export your files to the web.</span>
+57 |      </menu-entry>
+58 |      <menu-entry @click.native="setPanel('history')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+59 |        <icon-history slot="icon"></icon-history>
+60 |        <div>History</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+61 |        <span>Track and restore file revisions.</span>
+62 |      </menu-entry>
+63 |      <menu-entry @click.native="fileProperties">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+64 |        <icon-view-list slot="icon"></icon-view-list>
+65 |        <div>File properties</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+67 |      </menu-entry>
+68 |      <hr>
+69 |      <menu-entry @click.native="setPanel('toc')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+70 |        <icon-toc slot="icon"></icon-toc>
+71 |        Table of contents
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+71 |        Table of contents
+72 |      </menu-entry>
+73 |      <menu-entry @click.native="setPanel('help')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+74 |        <icon-help-circle slot="icon"></icon-help-circle>
+75 |        Markdown cheat sheet
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+76 |      </menu-entry>
+77 |      <hr>
+78 |      <menu-entry @click.native="setPanel('importExport')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+79 |        <icon-content-save slot="icon"></icon-content-save>
+80 |        Import/export
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+80 |        Import/export
+81 |      </menu-entry>
+82 |      <menu-entry @click.native="print">
+   |                  ^^^^^^^^^^^^^^^^^^^^^
+83 |        <icon-printer slot="icon"></icon-printer>
+84 |        Print
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+85 |      </menu-entry>
+86 |      <hr>
+87 |      <menu-entry @click.native="badges">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^
+88 |        <icon-seal slot="icon"></icon-seal>
+89 |        <div><div class="menu-entry__label menu-entry__label--count">{{badgeCount}}/{{featureCount}}</div> Badges</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+90 |        <span>List application features and earned badges.</span>
+91 |      </menu-entry>
+92 |      <menu-entry @click.native="accounts">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^
+93 |        <icon-key slot="icon"></icon-key>
+94 |        <div><div class="menu-entry__label menu-entry__label--count">{{accountCount}}</div> Accounts</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+95 |        <span>Manage access to your external accounts.</span>
+96 |      </menu-entry>
+97 |      <menu-entry @click.native="templates">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+98 |        <icon-code-braces slot="icon"></icon-code-braces>
+99 |        <div><div class="menu-entry__label menu-entry__label--count">{{templateCount}}</div> Templates</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+100|        <span>Configure Handlebars templates for your exports.</span>
+101|      </menu-entry>
+102|      <menu-entry @click.native="settings">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^
+103|        <icon-settings slot="icon"></icon-settings>
+104|        <div>Settings</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+106|      </menu-entry>
+107|      <hr>
+108|      <menu-entry @click.native="setPanel('workspaceBackups')">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+109|        <icon-content-save slot="icon"></icon-content-save>
+110|        Workspace backups
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+110|        Workspace backups
+111|      </menu-entry>
+112|      <menu-entry @click.native="reset">
+   |                  ^^^^^^^^^^^^^^^^^^^^^
+113|        <icon-logout slot="icon"></icon-logout>
+114|        Reset application
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+114|        Reset application
+115|      </menu-entry>
+116|      <menu-entry @click.native="about">
+   |                  ^^^^^^^^^^^^^^^^^^^^^
+117|        <icon-help-circle slot="icon"></icon-help-circle>
+118|        About StackEdit
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/MainMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+1  |  <template>
+2  |    <div class="side-bar__panel side-bar__panel--menu">
+3  |      <menu-entry @click.native="manageWorkspaces">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4  |        <icon-database slot="icon"></icon-database>
+5  |        <div><div class="menu-entry__label menu-entry__label--count">{{workspaceCount}}</div> Manage workspaces</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/WorkspacesMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+14 |      </div>
+15 |      <hr>
+16 |      <menu-entry @click.native="addCouchdbWorkspace">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+17 |        <icon-provider slot="icon" provider-id="couchdbWorkspace"></icon-provider>
+18 |        <span>Add a <b>CouchDB</b> workspace</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/WorkspacesMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+18 |        <span>Add a <b>CouchDB</b> workspace</span>
+19 |      </menu-entry>
+20 |      <menu-entry @click.native="addGithubWorkspace">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+21 |        <icon-provider slot="icon" provider-id="githubWorkspace"></icon-provider>
+22 |        <span>Add a <b>GitHub</b> workspace</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/WorkspacesMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+22 |        <span>Add a <b>GitHub</b> workspace</span>
+23 |      </menu-entry>
+24 |      <menu-entry @click.native="addGitlabWorkspace">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+25 |        <icon-provider slot="icon" provider-id="gitlabWorkspace"></icon-provider>
+26 |        <span>Add a <b>GitLab</b> workspace</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/WorkspacesMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+26 |        <span>Add a <b>GitLab</b> workspace</span>
+27 |      </menu-entry>
+28 |      <menu-entry @click.native="addGoogleDriveWorkspace">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+29 |        <icon-provider slot="icon" provider-id="googleDriveWorkspace"></icon-provider>
+30 |        <span>Add a <b>Google Drive</b> workspace</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/WorkspacesMenu.vue
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\menus\WorkspacesMenu.vue 2:9  root stylesheet
+
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+7  |        <div class="side-bar__info" v-if="syncLocations.length">
+8  |          <p>{{currentFileName}} is already synchronized.</p>
+9  |          <menu-entry @click.native="requestSync">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+10 |            <icon-sync slot="icon"></icon-sync>
+11 |            <div>Synchronize now</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+12 |            <span>Download / upload file changes.</span>
+13 |          </menu-entry>
+14 |          <menu-entry @click.native="manageSync">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+15 |            <icon-view-list slot="icon"></icon-view-list>
+16 |            <div><div class="menu-entry__label menu-entry__label--count">{{locationCount}}</div> File synchronization</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+23 |        <hr>
+24 |        <div v-for="token in dropboxTokens" :key="token.sub">
+25 |          <menu-entry @click.native="openDropbox(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+26 |            <icon-provider slot="icon" provider-id="dropbox"></icon-provider>
+27 |            <div>Open from Dropbox</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+28 |            <span>{{token.name}}</span>
+29 |          </menu-entry>
+30 |          <menu-entry @click.native="saveDropbox(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+31 |            <icon-provider slot="icon" provider-id="dropbox"></icon-provider>
+32 |            <div>Save on Dropbox</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+35 |        </div>
+36 |        <div v-for="token in githubTokens" :key="token.sub">
+37 |          <menu-entry @click.native="openGithub(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+38 |            <icon-provider slot="icon" provider-id="github"></icon-provider>
+39 |            <div>Open from GitHub</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+40 |            <span>{{token.name}}</span>
+41 |          </menu-entry>
+42 |          <menu-entry @click.native="saveGithub(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+43 |            <icon-provider slot="icon" provider-id="github"></icon-provider>
+44 |            <div>Save on GitHub</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+45 |            <span>{{token.name}}</span>
+46 |          </menu-entry>
+47 |          <menu-entry @click.native="saveGist(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+48 |            <icon-provider slot="icon" provider-id="gist"></icon-provider>
+49 |            <div>Save on Gist</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+52 |        </div>
+53 |        <div v-for="token in gitlabTokens" :key="token.sub">
+54 |          <menu-entry @click.native="openGitlab(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+55 |            <icon-provider slot="icon" provider-id="gitlab"></icon-provider>
+56 |            <div>Open from GitLab</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+57 |            <span>{{token.name}}</span>
+58 |          </menu-entry>
+59 |          <menu-entry @click.native="saveGitlab(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+60 |            <icon-provider slot="icon" provider-id="gitlab"></icon-provider>
+61 |            <div>Save on GitLab</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+64 |        </div>
+65 |        <div v-for="token in googleDriveTokens" :key="token.sub">
+66 |          <menu-entry @click.native="openGoogleDrive(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+67 |            <icon-provider slot="icon" provider-id="googleDrive"></icon-provider>
+68 |            <div>Open from Google Drive</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+69 |            <span>{{token.name}}</span>
+70 |          </menu-entry>
+71 |          <menu-entry @click.native="saveGoogleDrive(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+72 |            <icon-provider slot="icon" provider-id="googleDrive"></icon-provider>
+73 |            <div>Save on Google Drive</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+76 |        </div>
+77 |        <hr>
+78 |        <menu-entry @click.native="addDropboxAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+79 |          <icon-provider slot="icon" provider-id="dropbox"></icon-provider>
+80 |          <span>Add Dropbox account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+80 |          <span>Add Dropbox account</span>
+81 |        </menu-entry>
+82 |        <menu-entry @click.native="addGithubAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+83 |          <icon-provider slot="icon" provider-id="github"></icon-provider>
+84 |          <span>Add GitHub account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+84 |          <span>Add GitHub account</span>
+85 |        </menu-entry>
+86 |        <menu-entry @click.native="addGitlabAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+87 |          <icon-provider slot="icon" provider-id="gitlab"></icon-provider>
+88 |          <span>Add GitLab account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+88 |          <span>Add GitLab account</span>
+89 |        </menu-entry>
+90 |        <menu-entry @click.native="addGoogleDriveAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+91 |          <icon-provider slot="icon" provider-id="googleDrive"></icon-provider>
+92 |          <span>Add Google Drive account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/SyncMenu.vue
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\menus\HistoryMenu.vue 2:9  root stylesheet
+
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+22 |      </label>
+23 |      <hr>
+24 |      <menu-entry @click.native="exportMarkdown">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+25 |        <icon-download slot="icon"></icon-download>
+26 |        <div>Export as Markdown</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/ImportExportMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+27 |        <span>Save plain text file.</span>
+28 |      </menu-entry>
+29 |      <menu-entry @click.native="exportHtml">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+30 |        <icon-download slot="icon"></icon-download>
+31 |        <div>Export as HTML</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/ImportExportMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+32 |        <span>Generate an HTML page from a template.</span>
+33 |      </menu-entry>
+34 |      <menu-entry @click.native="exportPdf">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+35 |        <icon-download slot="icon"></icon-download>
+36 |        <div><div class="menu-entry__label" :class="{'menu-entry__label--warning': !isSponsor}">sponsor</div> Export as PDF</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/ImportExportMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+37 |        <span>Produce a PDF from an HTML template.</span>
+38 |      </menu-entry>
+39 |      <menu-entry @click.native="exportPandoc">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+40 |        <icon-download slot="icon"></icon-download>
+41 |        <div><div class="menu-entry__label" :class="{'menu-entry__label--warning': !isSponsor}">sponsor</div> Export with Pandoc</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/ImportExportMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+7  |        <div class="side-bar__info" v-if="publishLocations.length">
+8  |          <p>{{currentFileName}} is already published.</p>
+9  |          <menu-entry @click.native="requestPublish">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+10 |            <icon-upload slot="icon"></icon-upload>
+11 |            <div>Publish now</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+12 |            <span>Update publications for {{currentFileName}}.</span>
+13 |          </menu-entry>
+14 |          <menu-entry @click.native="managePublish">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+15 |            <icon-view-list slot="icon"></icon-view-list>
+16 |            <div><div class="menu-entry__label menu-entry__label--count">{{locationCount}}</div> File publication</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+23 |        <hr>
+24 |        <div v-for="token in bloggerTokens" :key="'blogger-' + token.sub">
+25 |          <menu-entry @click.native="publishBlogger(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+26 |            <icon-provider slot="icon" provider-id="blogger"></icon-provider>
+27 |            <div>Publish to Blogger</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+28 |            <span>{{token.name}}</span>
+29 |          </menu-entry>
+30 |          <menu-entry @click.native="publishBloggerPage(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+31 |            <icon-provider slot="icon" provider-id="bloggerPage"></icon-provider>
+32 |            <div>Publish to Blogger Page</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+35 |        </div>
+36 |        <div v-for="token in dropboxTokens" :key="token.sub">
+37 |          <menu-entry @click.native="publishDropbox(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+38 |            <icon-provider slot="icon" provider-id="dropbox"></icon-provider>
+39 |            <div>Publish to Dropbox</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+42 |        </div>
+43 |        <div v-for="token in githubTokens" :key="token.sub">
+44 |          <menu-entry @click.native="publishGist(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+45 |            <icon-provider slot="icon" provider-id="gist"></icon-provider>
+46 |            <div>Publish to Gist</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+47 |            <span>{{token.name}}</span>
+48 |          </menu-entry>
+49 |          <menu-entry @click.native="publishGithub(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+50 |            <icon-provider slot="icon" provider-id="github"></icon-provider>
+51 |            <div>Publish to GitHub</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+54 |        </div>
+55 |        <div v-for="token in gitlabTokens" :key="token.sub">
+56 |          <menu-entry @click.native="publishGitlab(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+57 |            <icon-provider slot="icon" provider-id="gitlab"></icon-provider>
+58 |            <div>Publish to GitLab</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+61 |        </div>
+62 |        <div v-for="token in googleDriveTokens" :key="token.sub">
+63 |          <menu-entry @click.native="publishGoogleDrive(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+64 |            <icon-provider slot="icon" provider-id="googleDrive"></icon-provider>
+65 |            <div>Publish to Google Drive</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+68 |        </div>
+69 |        <div v-for="token in wordpressTokens" :key="token.sub">
+70 |          <menu-entry @click.native="publishWordpress(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+71 |            <icon-provider slot="icon" provider-id="wordpress"></icon-provider>
+72 |            <div>Publish to WordPress</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+75 |        </div>
+76 |        <div v-for="token in zendeskTokens" :key="token.sub">
+77 |          <menu-entry @click.native="publishZendesk(token)">
+   |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+78 |            <icon-provider slot="icon" provider-id="zendesk"></icon-provider>
+79 |            <div>Publish to Zendesk Help Center</div>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+82 |        </div>
+83 |        <hr>
+84 |        <menu-entry @click.native="addBloggerAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+85 |          <icon-provider slot="icon" provider-id="blogger"></icon-provider>
+86 |          <span>Add Blogger account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+86 |          <span>Add Blogger account</span>
+87 |        </menu-entry>
+88 |        <menu-entry @click.native="addDropboxAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+89 |          <icon-provider slot="icon" provider-id="dropbox"></icon-provider>
+90 |          <span>Add Dropbox account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+90 |          <span>Add Dropbox account</span>
+91 |        </menu-entry>
+92 |        <menu-entry @click.native="addGithubAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+93 |          <icon-provider slot="icon" provider-id="github"></icon-provider>
+94 |          <span>Add GitHub account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+94 |          <span>Add GitHub account</span>
+95 |        </menu-entry>
+96 |        <menu-entry @click.native="addGitlabAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+97 |          <icon-provider slot="icon" provider-id="gitlab"></icon-provider>
+98 |          <span>Add GitLab account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+98 |          <span>Add GitLab account</span>
+99 |        </menu-entry>
+100|        <menu-entry @click.native="addGoogleDriveAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+101|          <icon-provider slot="icon" provider-id="googleDrive"></icon-provider>
+102|          <span>Add Google Drive account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+102|          <span>Add Google Drive account</span>
+103|        </menu-entry>
+104|        <menu-entry @click.native="addWordpressAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+105|          <icon-provider slot="icon" provider-id="wordpress"></icon-provider>
+106|          <span>Add WordPress account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+106|          <span>Add WordPress account</span>
+107|        </menu-entry>
+108|        <menu-entry @click.native="addZendeskAccount">
+   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+109|          <icon-provider slot="icon" provider-id="zendesk"></icon-provider>
+110|          <span>Add Zendesk account</span>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/PublishMenu.vue
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+10 |        </div>
+11 |      </label>
+12 |      <menu-entry @click.native="exportWorkspace">
+   |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+13 |        <icon-content-save slot="icon"></icon-content-save>
+14 |        Export workspace backup
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/menus/WorkspaceBackupMenu.vue
+[Vue warn] (deprecation COMPILER_V_IF_V_FOR_PRECEDENCE) v-if / v-for precedence when used on the same element has changed in Vue 3: v-if now takes higher precedence and will no longer have access to v-for scope variables. It is best to avoid the ambiguity with <template> tags or use a computed property that filters v-for data source.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-if-v-for.html
+22:24:10 [vite] warning: (deprecation COMPILER_V_ON_NATIVE) .native modifier for v-on has been removed as is no longer necessary.
+  Details: https://v3-migration.vuejs.org/breaking-changes/v-on-native-modifier-removed.html
+1  |  <template>
+2  |    <div class="comment-list" :class="stickyComment && 'comment-list--' + stickyComment" :style="{width: constants.gutterWidth + 'px'}">
+3  |      <comment v-for="(comment, discussionId) in currentFileDiscussionLastComments" :key="discussionId" v-if="comment.discussionId !== currentDiscussionId" :comment="comment" class="comment--last" :class="'comment--discussion-' + discussionId" :style="{top: tops[discussionId] + 'px'}" @click.native="setCurrentDiscussionId(discussionId)"></comment>
+   |                                                                                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4  |      <div class="comment-list__current-discussion" :style="{top: tops.current + 'px'}">
+5  |        <comment v-for="(comment, id) in currentDiscussionComments" :key="id" :comment="comment" :class="'comment--' + id"></comment>
+  Plugin: vite:vue
+  File: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/components/gutters/CommentList.vue
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\gutters\CommentList.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16    @import
+    src\components\CodeEditor.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                @import
+    src\components\menus\common\MenuEntry.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16              @import
+    src\components\menus\WorkspacesMenu.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16           @import
+    src\components\menus\HistoryMenu.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16             @import
+    src\components\gutters\CommentList.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+69 Ôöé   background-color: darken($error-color, 10);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\menus\common\MenuEntry.vue 69:21  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+69 Ôöé   background-color: darken($error-color, 10);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\menus\common\MenuEntry.vue 69:21  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+81 Ôöé     color: transparentize($editor-color-light, 0.5) !important;
+   Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\menus\HistoryMenu.vue 81:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -62.5%)
+color.adjust($color, $alpha: -0.5)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+81 Ôöé     color: transparentize($editor-color-light, 0.5) !important;
+   Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\menus\HistoryMenu.vue 81:12  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+84 Ôöé       color: transparentize($editor-color-dark, 0.5) !important;
+   Ôöé              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\menus\HistoryMenu.vue 84:14  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -62.5%)
+color.adjust($color, $alpha: -0.5)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+84 Ôöé       color: transparentize($editor-color-dark, 0.5) !important;
+   Ôöé              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\menus\HistoryMenu.vue 84:14  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+108 Ôöé       background-color: mix(#fff, $selection-highlighting-color, 60%);
+    Ôöé                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\menus\HistoryMenu.vue 108:25  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+112 Ôöé       background-color: mix(#fff, $error-color, 60%);
+    Ôöé                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\menus\HistoryMenu.vue 112:25  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
