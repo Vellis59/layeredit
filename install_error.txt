@@ -1,0 +1,5 @@
+npm error code ETARGET
+npm error notarget No matching version found for markdown-it-pandoc-renderer@^0.4.0.
+npm error notarget In most cases you or one of your dependencies are requesting
+npm error notarget a package version that doesn't exist.
+npm error A complete log of this run can be found in: C:\Users\Velli\AppData\Local\npm-cache\_logs\2026-02-12T20_40_43_104Z-debug-0.log
