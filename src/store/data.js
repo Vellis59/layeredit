@@ -2,13 +2,13 @@ import Vue from 'vue';
 import yaml from 'js-yaml';
 import utils from '../services/utils';
 import defaultWorkspaces from '../data/defaults/defaultWorkspaces';
-import defaultSettings from '../data/defaults/defaultSettings.yml';
+import defaultSettings from '../data/defaults/defaultSettings.yml?raw';
 import defaultLocalSettings from '../data/defaults/defaultLocalSettings';
 import defaultLayoutSettings from '../data/defaults/defaultLayoutSettings';
-import plainHtmlTemplate from '../data/templates/plainHtmlTemplate.html';
-import styledHtmlTemplate from '../data/templates/styledHtmlTemplate.html';
-import styledHtmlWithTocTemplate from '../data/templates/styledHtmlWithTocTemplate.html';
-import jekyllSiteTemplate from '../data/templates/jekyllSiteTemplate.html';
+import plainHtmlTemplate from '../data/templates/plainHtmlTemplate.html?raw';
+import styledHtmlTemplate from '../data/templates/styledHtmlTemplate.html?raw';
+import styledHtmlWithTocTemplate from '../data/templates/styledHtmlWithTocTemplate.html?raw';
+import jekyllSiteTemplate from '../data/templates/jekyllSiteTemplate.html?raw';
 import constants from '../data/constants';
 import features from '../data/features';
 import badgeSvc from '../services/badgeSvc';
@@ -80,10 +80,10 @@ const layoutSettingsToggler = (propertyName, featureId) => ({ getters, dispatch 
 
 const notEnoughSpace = (layoutConstants, showGutter) =>
   document.body.clientWidth < layoutConstants.editorMinWidth +
-    layoutConstants.explorerWidth +
-    layoutConstants.sideBarWidth +
-    layoutConstants.buttonBarWidth +
-    (showGutter ? layoutConstants.gutterWidth : 0);
+  layoutConstants.explorerWidth +
+  layoutConstants.sideBarWidth +
+  layoutConstants.buttonBarWidth +
+  (showGutter ? layoutConstants.gutterWidth : 0);
 
 // For templates
 const makeAdditionalTemplate = (name, value, helpers = '\n') => ({

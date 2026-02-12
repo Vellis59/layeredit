@@ -1,0 +1,1288 @@
+
+> stackedit@5.15.4 build
+> vite build
+
+The CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import './variables';
+  Ôöé         ^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\markdownHighlighting.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import './variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\app.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16           @import
+    src\styles\markdownHighlighting.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\styles\app.scss 1:9          root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+167 Ôöé     background-color: darken(#349be8, 8%);
+    Ôöé                       ^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 167:23  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -14.3661971831%)
+color.adjust($color, $lightness: -8%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+167 Ôöé     background-color: darken(#349be8, 8%);
+    Ôöé                       ^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 167:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+311 Ôöé   background-color: mix($editor-background-light, $selection-highlighting-color, 70%);
+    Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 311:21  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+315 Ôöé     background-color: mix($editor-background-dark, $selection-highlighting-color, 70%);
+    Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 315:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+321 Ôöé   background-color: mix($editor-background-light, $selection-highlighting-color, 50%);
+    Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\styles\app.scss 321:21  root stylesheet
+
+WARNING: 3 repetitive deprecation warnings omitted.
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Layout.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Notification.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Modal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Layout.vue 2:9    root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16      @import
+    src\components\Notification.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Modal.vue 2:9     root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+20 Ôöé   color: darken($error-color, 10%);
+   Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 20:10  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+20 Ôöé   color: darken($error-color, 10%);
+   Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 20:10  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:36  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 70.7142857143%)
+color.adjust($color, $lightness: 33%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:36  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:21  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -7.5%)
+color.adjust($color, $alpha: -0.075)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+21 Ôöé   background-color: transparentize(lighten($error-color, 33%), 0.075);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Modal.vue 21:21  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+37 Ôöé     background-color: mix(#000, $editor-background-light, 6.7%);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Layout.vue 37:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+40 Ôöé       background-color: mix(#fff, $editor-background-dark, 6.7%);
+   Ôöé                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Layout.vue 40:25  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+62 Ôöé     background-color: mix(#000, $preview-background-light, 6.7%);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Layout.vue 62:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+134 Ôöé     color: darken($link-color, 10%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\Modal.vue 134:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -21.25%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+134 Ôöé     color: darken($link-color, 10%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\Modal.vue 134:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+138 Ôöé     color: darken($error-color, 10%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\Modal.vue 138:12  root stylesheet
+
+WARNING: 5 repetitive deprecation warnings omitted.
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import '../../node_modules/normalize-scss/sass/normalize';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\base.scss 1:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import './variables';
+  Ôöé         ^^^^^^^^^^^^^
+  ÔòÁ
+    src\styles\base.scss 2:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+1 Ôöé @import 'normalize/variables';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\_normalize.scss 1:9  @import
+    src\styles\base.scss 1:9                              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import 'normalize/vertical-rhythm';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\_normalize.scss 2:9  @import
+    src\styles\base.scss 1:9                              root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+3 Ôöé @import 'normalize/normalize-mixin';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\_normalize.scss 3:9  @import
+    src\styles\base.scss 1:9                              root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(type-of($include) == "list"): $include; else: ($include))
+
+More info: https://sass-lang.com/d/if-function
+
+   ÔòÀ
+13 Ôöé     $_normalize-include: if(type-of($include) == 'list', $include, ($include)) !global;
+   Ôöé                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 13:26  @import
+    node_modules\normalize-scss\sass\_normalize.scss 3:9                    @import
+    src\styles\base.scss 1:9                                                root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(type-of($exclude) == "list"): $exclude; else: ($exclude))
+
+More info: https://sass-lang.com/d/if-function
+
+   ÔòÀ
+14 Ôöé     $_normalize-exclude: if(type-of($exclude) == 'list', $exclude, ($exclude)) !global;
+   Ôöé                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 14:26  @import
+    node_modules\normalize-scss\sass\_normalize.scss 3:9                    @import
+    src\styles\base.scss 1:9                                                root stylesheet
+
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($base-font-family): $base-font-family; else: sans-serif)
+
+More info: https://sass-lang.com/d/if-function
+
+    ÔòÀ
+419 Ôöé       font-family: if($base-font-family, $base-font-family, sans-serif); /* 1 */
+    Ôöé                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 419:20  @import
+    node_modules\normalize-scss\sass\_normalize.scss 3:9                     @import
+    src\styles\base.scss 1:9                                                 root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\styles\base.scss 2:9         root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.global-variable-exists instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+4 Ôöé   @if not global_variable_exists(_normalize-include) {
+  Ôöé           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 4:11   -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 31:10  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+13 Ôöé     $_normalize-include: if(type-of($include) == 'list', $include, ($include)) !global;
+   Ôöé                             ^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 13:29  -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 31:10  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.type-of instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+14 Ôöé     $_normalize-exclude: if(type-of($exclude) == 'list', $exclude, ($exclude)) !global;
+   Ôöé                             ^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 14:29  -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 31:10  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use list.index instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+19 Ôöé   @if index($_normalize-include, $section) {
+   Ôöé       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 19:7  -normalize-include()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 46:7  normalize()
+    src\styles\base.scss 4:1                                               root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($value, $relative-to) or calc($value / $relative-to)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ÔòÀ
+16 Ôöé     @return ($value / $relative-to) * 1em;
+   Ôöé              ^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    node_modules\normalize-scss\sass\normalize\_vertical-rhythm.scss 16:14  normalize-rhythm()
+    node_modules\normalize-scss\sass\normalize\_vertical-rhythm.scss 27:14  normalize-font-size()
+    node_modules\normalize-scss\sass\normalize\_normalize-mixin.scss 108:7  normalize()
+    src\styles\base.scss 4:1                                                root stylesheet
+
+WARNING: 4 repetitive deprecation warnings omitted.
+
+[vite:css] Replace text-decoration-skip: ink to text-decoration-skip-ink: auto, because spec had been changed
+478|    color: #0c93e4;
+479|    text-decoration: underline;
+480|    text-decoration-skip: ink;
+   |    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+481|  }
+482|  a:hover, a:focus {
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\ButtonBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\NavigationBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\SideBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Editor.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Preview.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\gutters\StickyComment.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\Tour.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\gutters\CurrentDiscussion.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\FindReplace.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\common\ModalInner.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\SettingsModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\FilePropertiesModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\SyncManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\BadgeManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\WorkspaceManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\SponsorModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\PublishManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ÔòÀ
+2 Ôöé @import '../../styles/variables.scss';
+  Ôöé         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ÔòÁ
+    src\components\modals\AccountManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16   @import
+    src\components\ButtonBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16       @import
+    src\components\NavigationBar.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\SideBar.vue 2:9   root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Editor.vue 2:9    root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Preview.vue 2:9   root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16               @import
+    src\components\gutters\StickyComment.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16  @import
+    src\components\Tour.vue 2:9      root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                   @import
+    src\components\gutters\CurrentDiscussion.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16     @import
+    src\components\FindReplace.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                  @import
+    src\components\modals\common\ModalInner.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16              @import
+    src\components\modals\SettingsModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                    @import
+    src\components\modals\FilePropertiesModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                    @import
+    src\components\modals\SyncManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                     @import
+    src\components\modals\BadgeManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                         @import
+    src\components\modals\WorkspaceManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16             @import
+    src\components\modals\SponsorModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                       @import
+    src\components\modals\PublishManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+18 Ôöé $navbar-color: mix($navbar-bg, #fff, 33%);
+   Ôöé                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\styles\variables.scss 18:16                       @import
+    src\components\modals\AccountManagementModal.vue 2:9  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+14 Ôöé $tour-step-background: transparentize(mix(#f3f3f3, $selection-highlighting-color, 75%), 0.025);
+   Ôöé                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 14:39  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+14 Ôöé $tour-step-background: transparentize(mix(#f3f3f3, $selection-highlighting-color, 75%), 0.025);
+   Ôöé                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 14:24  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -2.5%)
+color.adjust($color, $alpha: -0.025)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+14 Ôöé $tour-step-background: transparentize(mix(#f3f3f3, $selection-highlighting-color, 75%), 0.025);
+   Ôöé                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 14:24  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+30 Ôöé     background-color: darken($error-color, 10);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\SponsorModal.vue 30:23  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+30 Ôöé     background-color: darken($error-color, 10);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\SponsorModal.vue 30:23  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(-$tour-step-width, 2) or calc(-1 * $tour-step-width / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ÔòÀ
+50 Ôöé     left: -$tour-step-width/2;
+   Ôöé           ^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\Tour.vue 50:11  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+54 Ôöé     background-color: mix($editor-background-light, $selection-highlighting-color, 10%);
+   Ôöé                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\gutters\CurrentDiscussion.vue 54:23  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+58 Ôöé       background-color: mix($editor-background-dark, $selection-highlighting-color, 10%);
+   Ôöé                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\gutters\CurrentDiscussion.vue 58:25  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ÔòÀ
+89 Ôöé   background-color: darken($error-color, 10);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\WorkspaceManagementModal.vue 89:21  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.75%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ÔòÀ
+89 Ôöé   background-color: darken($error-color, 10);
+   Ôöé                     ^^^^^^^^^^^^^^^^^^^^^^^^
+   ÔòÁ
+    src\components\modals\WorkspaceManagementModal.vue 89:21  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+197 Ôöé   color: lighten($link-color, 15%);
+    Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 197:10  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 28.3333333333%)
+color.adjust($color, $lightness: 15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+197 Ôöé   color: lighten($link-color, 15%);
+    Ôöé          ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 197:10  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+202 Ôöé     color: lighten($link-color, 25%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 202:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 47.2222222222%)
+color.adjust($color, $lightness: 25%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+202 Ôöé     color: lighten($link-color, 25%);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 202:12  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($d, 10) or calc($d / 10)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ÔòÀ
+220 Ôöé $b: $d/10;
+    Ôöé     ^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 220:5  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+230 Ôöé     color: transparentize($error-color, 0.5);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 230:12  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -50%)
+color.adjust($color, $alpha: -0.5)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+230 Ôöé     color: transparentize($error-color, 0.5);
+    Ôöé            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 230:12  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+    ÔòÀ
+239 Ôöé   border: $b solid transparentize($navbar-color, 0.5);
+    Ôöé                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 239:20  root stylesheet
+
+DEPRECATION WARNING [color-functions]: transparentize() is deprecated. Suggestions:
+
+color.scale($color, $alpha: -50%)
+color.adjust($color, $alpha: -0.5)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ÔòÀ
+239 Ôöé   border: $b solid transparentize($navbar-color, 0.5);
+    Ôöé                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 239:20  root stylesheet
+
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($t, 4) or calc($t / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ÔòÀ
+265 Ôöé     animation: spin $t/4 linear infinite;
+    Ôöé                     ^^^^
+    ÔòÁ
+    src\components\NavigationBar.vue 265:21  root stylesheet
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[plugin:vite:resolve] [plugin vite:resolve] Module "fs" has been externalized for browser compatibility, imported by "C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/markdown-it-imsize/lib/imsize/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin:vite:resolve] [plugin vite:resolve] Module "path" has been externalized for browser compatibility, imported by "C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/markdown-it-imsize/lib/imsize/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[32mÔ£ô[39m 283 modules transformed.
+x Build failed in 1.48s
+error during build:
+[vite:build-import-analysis] [plugin vite:build-import-analysis] src/data/markdownSample.md: Failed to parse source for import analysis because the content contains invalid JS syntax. You may need to install appropriate plugins to handle the .md file format, or if it's an asset, add "**/*.md" to `assetsInclude` in your configuration.
+file: C:/Users/Velli/Desktop/CODE/antigravity/layeredit/src/data/markdownSample.md
+    at getRollupError (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/rollup/dist/es/shared/parseAst.js:402:41)
+    at error (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/rollup/dist/es/shared/parseAst.js:398:42)
+    at Object.error (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/rollup/dist/es/shared/node-entry.js:22226:20)
+    at Object.error (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/rollup/dist/es/shared/node-entry.js:21275:42)
+    at Object.transform (file:///C:/Users/Velli/Desktop/CODE/antigravity/layeredit/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:64913:14)
